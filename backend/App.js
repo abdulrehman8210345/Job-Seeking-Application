@@ -21,6 +21,12 @@ app.use(cookieParser());
 app.use(express.json());
 app.use(urlencoded({extended:true}));
 
+app.use("/",(req,res)=>{
+    res.json({
+        message:"Welcome to Job Seeker Backend"
+    })
+})
+
 app.use(fileUpload({
     useTempFiles:true,
     tempFileDir:"/tmp/",
