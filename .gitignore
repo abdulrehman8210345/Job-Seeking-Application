@@ -73,7 +73,7 @@ web_modules/
 .yarn-integrity
 
 # dotenv environment variable files
-/config/.env
+.env
 .env.development.local
 .env.test.local
 .env.production.local
@@ -131,4 +131,4 @@ dist
 
 /frontend/node_modules
 /backend/node_modules
-/backend/config/.env
+/backend/config
