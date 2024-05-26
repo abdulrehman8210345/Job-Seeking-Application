@@ -131,4 +131,4 @@ dist
 
 /frontend/node_modules
 /backend/node_modules
-/backend/config
+/backend/config/.env
